@@ -97,7 +97,7 @@ namespace ExcelImageDownloaderPlus {
                 string filename = System.IO.Directory.GetCurrentDirectory() + "\\" + cell.Column.ToString() + "-" + cell.Row.ToString() + "-temp-jpg.jpg";
                 if(!File.Exists(filename))
                 {
-                    cell.Value2 = "Error downloading image.";
+                    cell.Value2 = "Image unavailable";
                     continue;
                 }
 
