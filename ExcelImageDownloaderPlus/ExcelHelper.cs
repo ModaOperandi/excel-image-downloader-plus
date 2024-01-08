@@ -47,7 +47,7 @@ namespace ExcelImageDownloaderPlus {
         private static bool IsCellValueImageString(string value)
         {
             if (
-                value.Contains("https://s3.amazonaws.com/assets.modaoperandi.com/images")
+                value.Contains("https://s3.amazonaws.com/com.modaoperandi.cdn.assets.v2/images")
                 || value.Contains("https://cdn.modaoperandi.com/img/images")
                 || value.Contains("https://cdn.modaoperandi.com/assets/images")
                 || value.Contains("https://cdn.modaoperandi.com/img/uploads")
